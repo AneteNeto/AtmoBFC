@@ -1,0 +1,39 @@
+
+.header h1{
+	font-size:40px;
+	font-weight:normal;
+	color:#fff;
+	
+}
+#logo img{
+	width:200px;
+	position:absolute;
+	top:5;
+	left:5;
+}
+ul{
+	list-style:none;
+	display:flex;
+}
+
+ul li{
+  
+        padding:24px;
+	margin:auto  16px;
+
+}
+
+a {
+	color:#ffffff;
+	text-decoration:none;
+	padding: 8px;
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:1px solid #fff;
+}
+.icon{
+	
+	border:1px solid red;
+	
+}
+
