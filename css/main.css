@@ -2,8 +2,8 @@
 Bleu foncé : #0056A3
 Bleu clair : #2CBDEB
 Rouge : #E00637
-Vert : 	
-Gris : ECE8E7
+Vert : 	#b9ce00
+Gris : #ECE8E7
 */
 
 
@@ -41,14 +41,14 @@ body {
 	background-repeat:no-repeat;
 	background-position:top;
 	background-size:cover;
-        height: 700px;
+  height: 600px;
+	padding:16px;
 }
 
 .container-header {
- color: white;
+color: white;
 display:flex;
-justify-content: space-between;
-		
+justify-content: space-between;	
 }
 
 /* Middle

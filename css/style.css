@@ -3,37 +3,35 @@
 	font-size:40px;
 	font-weight:normal;
 	color:#fff;
-	
+	margin-left:200px;
+	margin-top:80px;
 }
 #logo img{
-	width:200px;
-	position:absolute;
-	top:5;
-	left:5;
+	width:180px;
 }
-ul{
+div ul{
 	list-style:none;
 	display:flex;
 }
 
 ul li{
-  
-        padding:24px;
-	margin:auto  16px;
-
+	 margin:24px 70px;
 }
-
 a {
 	color:#ffffff;
 	text-decoration:none;
-	padding: 8px;
 	font-size:18px;
 	font-weight:bold;
+	padding:8px;
 	border-bottom:1px solid #fff;
 }
-.icon{
-	
-	border:1px solid red;
-	
+.icons {
+	padding:4px;
+	margin:24px;
+	border-left:1px solid #fff;
+	//margin:4px;
 }
-
+.icons i{
+	padding:4px;
+	margin-left:8px;
+}
