@@ -10,6 +10,7 @@ Gris : #ECE8E7
 * {
 	margin: 0;
 	padding: 0;
+	boxing-sizing:border-box;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block;
@@ -43,6 +44,7 @@ body {
 	background-size:cover;
   height: 600px;
 	padding:16px;
+	width:100%;
 }
 
 .container-header {
@@ -54,22 +56,32 @@ justify-content: space-between;
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
+
 }
 
-.breadcrumb {
-	padding: 2rem;
+.breadcrumb{
+	padding:0 5rem;
+	display:flex;
+	justify-content:flex-end;
+	align-item:flex:start;
 }
 
-section {
-	padding: 5rem;
+section{
+	padding: 3rem 5rem;
 }
-
+.container{
+	display:flex;
+	justify-content:space-around;
+}
 .section-one {
-
 }
 
 .section-two {
 	background: #F6F4F3;
+	column-count: 2;
+  column-gap: 30px;
+  column-rule: 1px solid rgb(79, 185, 227);
+	column-width:120px;
 }
 
 .section-three {

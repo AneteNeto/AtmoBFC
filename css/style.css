@@ -1,10 +1,14 @@
 
 .header h1{
-	font-size:40px;
-	font-weight:normal;
+	font-size:70px;
+	font-weight: initial;
 	color:#fff;
 	margin-left:200px;
-	margin-top:80px;
+	margin-top:50px;
+}
+.header span{
+	font-size:25px;
+	font-weight: bolder;
 }
 #logo img{
 	width:180px;
@@ -14,10 +18,11 @@ div ul{
 	display:flex;
 }
 
-ul li{
+.header ul li{
 	 margin:24px 70px;
+	transition: 500ms linear;
 }
-a {
+.header ul li a {
 	color:#ffffff;
 	text-decoration:none;
 	font-size:18px;
@@ -25,6 +30,15 @@ a {
 	padding:8px;
 	border-bottom:1px solid #fff;
 }
+#coccinelle{
+	width:50px;
+	transform: rotate(300deg);
+	position:absolute;
+}
+.header ul li:hover{
+transform: scale(1.1);
+}
+
 .icons {
 	padding:4px;
 	margin:24px;
@@ -34,4 +48,35 @@ a {
 .icons i{
 	padding:4px;
 	margin-left:8px;
+	//color:#0056A3;
+	font-size:24px;
+}
+
+//Fil de ariane
+.breadcrumb ul {
+	list-style:none;
+	display:flex;
+}
+.breadcrumb ul li{
+	width:120px;
+	padding:4px;
+}
+.breadcrumb ul li:first-child{
+	background:#0056A3;
+}
+.breadcrumb ul li:nth-child(2){
+	background:#E00637;
+}
+.breadcrumb ul li:last-child{
+	background:#b9ce00;
+}
+
+
+//Section 1
+
+
+.section-two #pub{
+	column-count: 3;
+  column-gap: 10px;
+	column-rule: 4px solid rgb(79, 185, 227);
 }
